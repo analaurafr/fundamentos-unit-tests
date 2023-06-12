@@ -1,6 +1,9 @@
 /* eslint-disable max-len */
-/* eslint-disable no-unused-vars 
-  A função `numbers` recebe um array de tamanho variável e retorna `true` se todos os parâmetros forem do tipo 'number' e `false` caso contrário.
+/* eslint-disable no-unused-vars */
+
+const numbers = require("../src/numbers");
+
+/*  A função `numbers` recebe um array de tamanho variável e retorna `true` se todos os parâmetros forem do tipo 'number' e `false` caso contrário.
 
   Parâmetros:
     - Um array. Exemplos: [1, 2]; [1, 2, 3, 4, 5]; [1, 2, 'a']; [].
@@ -9,8 +12,6 @@
     - numbers([2, 'errado', 5]); // Retorna: false
 
 */
-
-const numbers = require("../src/numbers");
 
 describe("Casos de testes para a função `numbers`", () => {
   it("Deve retornar true quando o array contém apenas números", () => {
