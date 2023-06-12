@@ -15,7 +15,7 @@ function average(array) {
   if (!Array.isArray(array) || array.length === 0) {
     return undefined;
   }
-
+  
   let sum = 0;
   let count = 0;
 
